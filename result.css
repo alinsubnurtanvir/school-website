@@ -1,0 +1,90 @@
+body {
+  background: #f4f8fc;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  background: #005aa7;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: center;
+}
+
+.header img {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.title-box h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.title-box h2 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.title-box p {
+  font-size: 13px;
+  margin: 0;
+  color: #d2f5dc;
+}
+
+.result-box {
+  margin: 30px auto;
+  width: 400px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 25px;
+}
+
+.result-form table {
+  width: 100%;
+  font-size: 14px;
+}
+
+.result-form td {
+  padding: 10px 5px;
+  text-align: left;
+}
+
+.result-form select,
+.result-form input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.result-form button {
+  padding: 8px 15px;
+  margin-right: 10px;
+  background: #00723f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.result-form button[type="reset"] {
+  background: #ccc;
+  color: #000;
+}
+
+.result-form button:hover {
+  opacity: 0.9;
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 13px;
+  color: #333;
+}
+.title-box {
+  text-align: center;
+}

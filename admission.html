@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>Admission Form | ভর্তি ফরম</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f8fc;
+    }
+
+    .header {
+      background: #005aa7;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .header img {
+      width: 80px;
+      height: auto;
+      margin-right: 20px;
+    }
+
+    .title-box h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .title-box h2 {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+
+    .title-box p {
+      font-size: 13px;
+      margin: 0;
+      color: #d2f5dc;
+    }
+
+    .navbar {
+      background-color: #003c78;
+      margin-top: 5px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px 0;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      background: white;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+    }
+
+    .section h2 {
+      color: #003366;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    form label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    form input,
+    form select,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      padding: 10px 20px;
+      background-color: #00723f;
+      color: white;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    form button[type="reset"] {
+      background-color: #ccc;
+      color: #000;
+      margin-left: 10px;
+    }
+
+    form button:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <img src="meb-board-logo.png" alt="Logo">
+    <div class="title-box">
+      <h1>কাপাসিয়া শহীদ স্মৃতি উচ্চ বিদ্যালয়</h1>
+      <h2>Nalitabari, Sherpur</h2>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="result.html">School Result</a>
+    <a href="admission.html">Admission</a>
+    <a href="http://www.educationboardresults.gov.bd/" target="_blank">Public Result</a>
+  </div>
+
+  <!-- Admission Form Section -->
+  <div class="section">
+    <h2>ভর্তি ফরম | Admission Form</h2>
+    <form>
+      <label>ছাত্র/ছাত্রীর নাম:</label>
+      <input type="text" required>
+
+      <label>পিতার নাম:</label>
+      <input type="text" required>
+
+      <label>মাতার নাম:</label>
+      <input type="text" required>
+
+      <label>অভিভাবকের নাম:</label>
+      <input type="text" required>
+
+      <label>জন্ম তারিখ:</label>
+      <input type="date" required>
+
+      <label>লিঙ্গ (Gender):</label>
+      <select required>
+        <option value="">Select</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+
+      <label>ধর্ম (Religion):</label>
+      <select required>
+        <option value="">Select</option>
+        <option>Islam</option>
+        <option>Hindu</option>
+        <option>Christian</option>
+        <option>Buddhist</option>
+        <option>Other</option>
+      </select>
+
+      <label>রক্তের গ্রুপ (Blood Group):</label>
+      <select>
+        <option value="">Select</option>
+        <option>A+</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B-</option>
+        <option>AB+</option>
+        <option>AB-</option>
+        <option>O+</option>
+        <option>O-</option>
+      </select>
+
+      <label>ভর্তি শ্রেণি:</label>
+      <select required>
+        <option value="">Select Class</option>
+        <option>Class 6</option>
+        <option>Class 7</option>
+        <option>Class 8</option>
+        <option>Class 9</option>
+        <option>Class 10</option>
+      </select>
+
+      <label>পূর্ববর্তী বিদ্যালয়ের নাম:</label>
+      <input type="text">
+
+      <label>মোবাইল নম্বর:</label>
+      <input type="tel" placeholder="01XXXXXXXXX" required>
+
+      <label>বর্তমান ঠিকানা:</label>
+      <textarea rows="3" required></textarea>
+
+      <label>ছবি আপলোড করুন:</label>
+      <input type="file" accept="image/*">
+
+      <button type="submit">সাবমিট</button>
+      <button type="reset">রিসেট</button>
+    </form>
+  </div>
+
+</body>
+</html>
