@@ -1,16 +1,16 @@
-# 🏫 School Website
+#  School Website
 
 A responsive and user-friendly school website built with HTML and CSS. This website is designed to provide essential services and information for students, teachers, and parents.
 
 ---
 
-## 🌐 Live Preview
+## Live Preview
 
-👉 https://alinsubnurtanvir.github.io/school-website/
+ https://alinsubnurtanvir.github.io/school-website/
 
 ---
 
-## 📌 Features
+##  Features
 
 - 🔹 Responsive Navigation Bar (Desktop + Mobile)
 - 🔹 Home, About, Notices, Results, Admission, Services, Contact pages
@@ -21,7 +21,7 @@ A responsive and user-friendly school website built with HTML and CSS. This webs
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3 (Flexbox & Grid)
@@ -30,4 +30,4 @@ A responsive and user-friendly school website built with HTML and CSS. This webs
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
